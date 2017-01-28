@@ -30,7 +30,7 @@ module.exports = function(grunt) {
          var loader = require('../lib/loader.js');
          var done = this.async();
       
-         grunt.log.writeln('loading',file);
+         grunt.log.writeln('installing',file);
       
          loader(file,options,grunt,done);
 		}

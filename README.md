@@ -56,6 +56,12 @@ Default value: `admin`
 Type: `String`
 Default value: none
 
+#### file
+Type: `String`
+Default value: none
+
+The .xar file to install. If you use a version bump, you can simply use a * placeholder to match the name.
+
 
 ### Usage Examples
 

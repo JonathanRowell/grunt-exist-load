@@ -65,15 +65,17 @@ The .xar file to install. If you use a version bump, you can simply use a * plac
 
 ### Usage Examples
 
-#### Default Options
 
 ```js
 grunt.initConfig({
   exist_load: {
-    options: {},
-    files: {
-      build: ['*.xar],
-    },
+    options: {
+	    host: 'localhost',
+		 port: 8080,
+		 loginUser: 'admin',
+		 loginPassword: 'admin'
+	 },
+    file: 'build/*.xar'
   },
 });
 ```
